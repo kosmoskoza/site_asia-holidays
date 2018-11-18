@@ -1,0 +1,229 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face{
+   font-family: 'Tahoma';
+   src: url(Tahoma/Tahoma.ttf)
+}
+
+/*-----background-----*/
+
+body {
+    font-family: 'Tahoma', sans-serif;
+    background-color: #000000;
+    background-image: url(img/background.png);
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+
+.conteiner {
+    margin: auto;
+    width: 816px;
+}
+
+/*-----header-----*/
+
+.palm {
+    background-image: url(img/palmtree.png);
+    background-repeat: no-repeat;
+    width: 125px;
+    height: 147px;
+    background-size: 100%;
+    margin-top: 56px;
+    margin-left: 99px;
+    position: relative;
+    z-index: 0;
+    filter: alpha(Opacity=15);
+    opacity: 0.15;
+    
+}
+
+.logo {
+    background-image: url(img/logo.png);
+    background-repeat: no-repeat;
+    width: 263px;
+    height: 37px;
+    position: absolute;
+    background-size: 100%;
+    top: 131px;
+    display: inline-block;
+    z-index: 2;
+}
+
+.tagline {
+    top: 45px;
+    font-weight: 600;
+    font-size: 10px;
+    color: #e6e6e6;
+    position: relative;
+    cursor: text;
+    text-align: center;
+}
+
+.contact {
+    top: 151px;
+    margin-left: 713px;
+    font-weight: 600;
+    font-size: 10px;
+    color: #e6e6e6;
+    text-align: left;
+    position: absolute;
+    cursor: text;
+}
+
+.tel-email {
+    top: 167px;
+    margin-left: 713px;
+    font-weight: 300;
+    font-size: 8px;
+    color: #e6e6e6;
+    text-align: left;
+    position: absolute;
+    cursor: text;
+}
+
+.tel-email2 {
+    top: 177px;
+    margin-left: 713px;
+    font-weight: 300;
+    font-size: 8px;
+    color: #e6e6e6;
+    text-align: left;
+    position: absolute;
+    cursor: text;
+}
+
+/*-----photo-----*/
+
+.countries{
+    width: 816px;
+    margin-bottom: 150px;
+}
+
+.item1 {
+    float: left;
+    text-align: center;
+    margin-right: 8px;
+    margin-bottom: 50px;
+}
+
+.item2 {
+    float: left;
+    text-align: center;
+    margin-right: 8px;
+    margin-bottom: 50px;
+}
+
+.item3 {
+    float: left;
+    text-align: center;
+    margin-right: 8px;
+    margin-bottom: 50px;
+}
+
+.item4 {
+    float: left;
+    text-align: center;
+    margin-right: 8px;
+    margin-bottom: 50px;
+}
+
+.item5 {
+    float: left;
+    text-align: center;
+    margin-right: 8px;
+    margin-bottom: 50px;
+}
+
+.item6 {
+    float: left;
+    text-align: center;
+    margin-right: 8px;
+    margin-bottom: 190px;
+}
+
+.frame {
+    border: 2px solid #aaaaaa;
+    border-radius: 2px;
+    box-shadow: inset 0px 0px 0px 2px, 0px 0px 8px;
+}
+
+.India {
+    background-image: url(img/india_photo.png);
+    display: inline-block;
+    background-repeat: no-repeat;
+    width: 261px;
+    height: 178px;
+    background-size: 100%;
+}
+
+.Nepal {
+    background-image: url(img/nepal_photo.png);
+    display: inline-block;
+    background-repeat: no-repeat;
+    width: 261px;
+    height: 178px;
+    background-size: 100%;
+}
+
+.Tibet {
+    background-image: url(img/tibet_photo.png);
+    display: inline-block;
+    background-repeat: no-repeat;
+    width: 261px;
+    height: 178px;
+    background-size: 100%;
+}
+
+.Bhutan {
+    background-image: url(img/bhutan_photo.png);
+    display: inline-block;
+    background-repeat: no-repeat;
+    width: 261px;
+    height: 178px;
+    background-size: 100%;
+}
+
+.SriLanka {
+    background-image: url(img/sri-lanka_photo.png);
+    display: inline-block;
+    background-repeat: no-repeat;
+    width: 261px;
+    height: 178px;
+    background-size: 100%;
+}
+
+.Maldives {
+    background-image: url(img/maldives_photo.png);
+    display: inline-block;
+    background-repeat: no-repeat;
+    width: 261px;
+    height: 178px;
+    background-size: 100%;
+}
+
+a {
+    font-weight: 300;
+    font-size: 15px;
+    color: #e6e6e6;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+a:hover {
+    color: gray;
+}
+
+/*-----footer-----*/
+
+footer {
+    font-weight: 300;
+    font-size: 10px;
+    color: #e6e6e6;
+    text-decoration: none;
+    cursor: text;
+    text-align: center;
+}
